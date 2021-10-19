@@ -4,7 +4,7 @@ import PhotoViewer from "./PhotoViewer/PhotoViewer";
 
 const App = () => {
   return (
-      <div>
+      <div className={"App"}>
         <h1>React Photo Viewer</h1>
         <PhotoViewer />
       </div>
