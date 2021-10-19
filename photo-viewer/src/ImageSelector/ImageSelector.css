@@ -11,3 +11,8 @@
     height: auto;
     padding: 0.5em;
 }
+.selected {
+    border-style: solid;
+    border-width: 3px;
+    border-color: yellow;
+}
