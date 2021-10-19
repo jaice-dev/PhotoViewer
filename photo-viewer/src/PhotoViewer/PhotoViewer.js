@@ -1,9 +1,7 @@
-﻿import React, { useState } from "react";
+﻿import React from "react";
 import "./PhotoViewer.css"
 
 const PhotoViewer = (props) => {
-    
-    
     
     return (
         <div className={"PhotoViewer"}>
