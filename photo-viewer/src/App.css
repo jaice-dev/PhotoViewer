@@ -1,9 +1,14 @@
 .App {
   text-align: left;
   margin: 0 auto;
-  max-width: 900px;
+  max-width: 60em;
 }
 
-/* Ask about e6 classes vs object factories vs object literal */
+/*
+  Where best to define size of App - here and then everything else is width 100%
+  Or set Photo max size and then App is 
+ */
+
+/* Ask about es6 classes vs object factories vs object literal */
 /* For react - functions vs classes vs arrow functions */
-/* Syntactic sugar - doe it matter with things like webpack and babel */
+/* Syntactic sugar - does it matter with things like webpack and babel */

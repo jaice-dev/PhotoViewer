@@ -1,3 +1,13 @@
-﻿.ImageSelector {
+﻿* {
+    box-sizing: border-box;
+}
+
+.ImageSelector {
     
+}
+
+.ImageSelectorPhoto {
+    max-width: 25%;
+    height: auto;
+    padding: 0.5em;
 }
