@@ -1,3 +1,9 @@
 .App {
   text-align: left;
+  margin: 0 auto;
+  max-width: 900px;
 }
+
+/* Ask about e6 classes vs object factories vs object literal */
+/* For react - functions vs classes vs arrow functions */
+/* Syntactic sugar - doe it matter with things like webpack and babel */

@@ -3,7 +3,7 @@ import "./PhotoViewer.css"
 
 const PhotoViewer = (props) => {
     return (
-        <div className={"photo-viewer"}>
+        <div className={"PhotoViewer"}>
             <img src={props.src} alt={"Photo being viewed"}/>
         </div>
     )

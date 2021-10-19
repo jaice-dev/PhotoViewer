@@ -1,8 +1,8 @@
-﻿.photo-viewer {
-    
+﻿.PhotoViewer {
 }
 
 img {
+    max-width: 900px;
     width: 100%;
     height: auto;
 }

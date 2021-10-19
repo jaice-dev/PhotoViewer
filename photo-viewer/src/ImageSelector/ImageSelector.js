@@ -4,7 +4,7 @@ import "./ImageSelector.css"
 
 const ImageSelector = () => {
     return (
-        <div>
+        <div className={"ImageSelector"}>
             
         </div>
     )
