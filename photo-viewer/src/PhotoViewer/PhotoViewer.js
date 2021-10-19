@@ -1,10 +1,10 @@
 ﻿import React from "react";
 import "./PhotoViewer.css"
 
-const PhotoViewer = () => {
+const PhotoViewer = (props) => {
     return (
         <div className={"photo-viewer"}>
-            <img src={"https://picsum.photos/1000/500"} alt={"Photo being viewed"}/>
+            <img src={props.src} alt={"Photo being viewed"}/>
         </div>
     )
 }
