@@ -9,7 +9,7 @@ const ImageSelector = (props) => (
                   onClick={() => {props.sendDataToParent(index);  }} 
                   className={index === props.selectedIndex ? "selected ImageSelectorPhoto" : "ImageSelectorPhoto"} 
                   src={url} 
-                  alt="Image selector picture"/>
+                  alt={index}/>
         )
     }
     </div>
