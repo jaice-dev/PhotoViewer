@@ -23,7 +23,7 @@ exports[`snapshot test to check if any changes 1`] = `
   >
     <img
       alt="Image selector picture"
-      className="ImageSelectorPhoto"
+      className="selected ImageSelectorPhoto"
       onClick={[Function]}
       src="https://picsum.photos/id/600/1600/900.jpg"
     />
