@@ -10,7 +10,8 @@ const ImageSelector = (props) => {
         <div className={"ImageSelector"}>
         {
             imageUrls.map((image, index) => {
-                return <img 
+                return <img
+                    key={index}    
                     onClick={() => { props.sendDataToParent(image); setSelected(index); }}
                     className={index === selected ? "selected ImageSelectorPhoto" : "ImageSelectorPhoto"} 
                     src={image} 
