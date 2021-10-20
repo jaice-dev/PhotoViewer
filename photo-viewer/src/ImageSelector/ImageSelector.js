@@ -1,26 +1,20 @@
-﻿import React, {useState} from "react";
-import { imageUrls } from "./ImageUrls";
+﻿import React from "react";
 import "./ImageSelector.css"
 
-const ImageSelector = (props) => {
-    
-    const [selected, setSelected] = useState()
-    
-    return (
-        <div className={"ImageSelector"}>
-        {
-            imageUrls.map((image, index) => {
-                return <img
-                    key={index}    
-                    onClick={() => { props.sendDataToParent(image); setSelected(index); }}
-                    className={index === selected ? "selected ImageSelectorPhoto" : "ImageSelectorPhoto"} 
-                    src={image} 
-                    alt={"Image selector picture"}/>
-            })
-        }
-        </div>
-)}
+const ImageSelector = (props) => (
+    <div className="ImageSelector">
+    {
+        props.imageUrls.map((url, index) => 
+             <img key={url} 
+                  onClick={() => {props.sendDataToParent(index);  }} 
+                  className={index === props.selectedIndex ? "selected ImageSelectorPhoto" : "ImageSelectorPhoto"} 
+                  src={url} 
+                  alt="Image selector picture"/>
+        )
+    }
+    </div>
+)
 
-
+//Use just index
 
 export default ImageSelector
